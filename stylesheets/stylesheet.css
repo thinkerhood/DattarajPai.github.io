@@ -217,7 +217,8 @@ background-image: url(http://1.bp.blogspot.com/-UaMXnN5fKLg/VUscmmNqX3I/AAAAAAAA
 /* CSS FOR MOBILES ------------*/
 .content{
 
-	margin:1px;
+	margin:2px;
+	padding: 2px;
 }
 
 }
