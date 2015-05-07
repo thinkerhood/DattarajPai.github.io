@@ -54,7 +54,10 @@ body a{
 	padding: 5px;
 }
 
+
+
 .nav a{
+	padding: 5px;
 	color: black;
 }
 
@@ -80,4 +83,56 @@ width: 65%;
 
 footer{
 	clear:both;
+}
+
+.facebook{
+	width: 45px; 
+	height:45px; 
+	display: inline-block;
+	background-image: url(http://4.bp.blogspot.com/-bvOOYWu8tAE/VUnF1pu1XYI/AAAAAAAAB2A/00EmB3mkaNI/s1600/FB.png) ;
+    background-repeat: no-repeat;
+}
+
+.twitter{
+	width: 49px; 
+	height:45px; 
+	display: inline-block;
+	background-image: url(http://4.bp.blogspot.com/-ld0H9wpdOPY/VUnF1i0YGqI/AAAAAAAAB18/xbzS701Pq7c/s1600/Twitter.png ) ;
+	background-repeat: no-repeat;
+}
+
+.pinterest{
+	width: 45px; 
+	height: 45px; 
+	display: inline-block;
+	background-image: url(http://3.bp.blogspot.com/-j0LDdlmLTpY/VUnF2ZpUg7I/AAAAAAAAB2Q/y9NF0CDBQWY/s1600/pinterest.png) ;
+	background-repeat: no-repeat;
+}
+
+.googleplus{
+	width: 45px; 
+	height:45px; 
+	display: inline-block;
+	background-image: url(http://1.bp.blogspot.com/-C3XeGkoMgKY/VUnF1uCiWhI/AAAAAAAAB2I/lRay8_C-vPc/s1600/Google_plus.png) ;
+	background-repeat: no-repeat;
+}
+
+.facebook:hover{
+background-image: url(http://3.bp.blogspot.com/-fwFuZa-aqe8/VUscm7nAoCI/AAAAAAAAB3M/FcyKo_uXK6w/s1600/FBB.png); 
+
+}
+
+.twitter:hover{
+background-image: url(http://2.bp.blogspot.com/-UjfuxljwULA/VUscmro6AeI/AAAAAAAAB3Q/QKdjsLDn9PA/s1600/Twitter.png); 
+
+}
+
+.pinterest:hover{
+background-image: url(http://4.bp.blogspot.com/-IZ1ssM4cXbI/VUscnbHDgyI/AAAAAAAAB3U/wQurUE4zAN8/s1600/pinterest.png); 
+
+}
+
+.googleplus:hover{
+background-image: url(http://1.bp.blogspot.com/-UaMXnN5fKLg/VUscmmNqX3I/AAAAAAAAB3I/Z0uBU3zPudY/s1600/Googleplus.png); 
+
 }
