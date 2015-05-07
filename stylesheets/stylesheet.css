@@ -206,6 +206,7 @@ background-image: url(http://1.bp.blogspot.com/-UaMXnN5fKLg/VUscmmNqX3I/AAAAAAAA
 
 .content{
 	width: 90%;
+	float:left;
 }
 }
 /* CSS FOR IPHONE ------------*/
