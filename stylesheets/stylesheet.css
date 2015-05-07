@@ -111,6 +111,15 @@ h1{
 
 }
 
+.sidebar-port{
+	float:left;
+    position: fixed;
+	width: 35%;
+	max-width: 350px;
+
+}
+
+
 .sidebar img{
 
 }
