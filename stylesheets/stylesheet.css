@@ -211,18 +211,29 @@ background-image: url(http://1.bp.blogspot.com/-UaMXnN5fKLg/VUscmmNqX3I/AAAAAAAA
 /* CSS FOR IPHONE ------------*/
 
 
-@media screen and (max-width : 480px) 
+@media screen and (max-width : 480px) {
 /* CSS FOR MOBILES ------------*/
 
-.navbart{
-
+	.sidebar{
+    position: relative;
+        width: 90%;
 }
 
-.social{
+.content{
+	width: 90%;
+}
 
 }
 
 
 @media screen and (max-width : 320px) {
 /* CSS FOR SMALL OLD MOBILES ------------*/
+	.sidebar{
+    position: relative;
+        width: 90%;
+}
+
+.content{
+	width: 90%;
+}
 }
