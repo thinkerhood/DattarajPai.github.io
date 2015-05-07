@@ -201,6 +201,11 @@ background-image: url(http://1.bp.blogspot.com/-UaMXnN5fKLg/VUscmmNqX3I/AAAAAAAA
 @media screen and (max-width : 640px) {
 	.sidebar{
     position: relative;
+        width: 90%;
+}
+
+.content{
+	width: 90%;
 }
 }
 /* CSS FOR IPHONE ------------*/
