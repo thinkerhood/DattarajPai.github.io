@@ -82,7 +82,7 @@ h1{
 
 .nav ul{
 		opacity: 0.8;
-	background-image: url(https://cloud.githubusercontent.com/assets/12274440/7514675/467cc4b0-f4dd-11e4-841c-313d1422d056.png);
+	background-image: url(../images/background.png);
 	margin: 10px;
 	position:relative;
 	padding: 15px;
@@ -176,4 +176,48 @@ background-image: url(http://4.bp.blogspot.com/-IZ1ssM4cXbI/VUscnbHDgyI/AAAAAAAA
 .googleplus:hover{
 background-image: url(http://1.bp.blogspot.com/-UaMXnN5fKLg/VUscmmNqX3I/AAAAAAAAB3I/Z0uBU3zPudY/s1600/Googleplus.png); 
 
+}
+
+/* Mobile
+----------------------------------------------- */
+
+@media screen and (max-width : 1280px) {
+/* CSS FOR NETBOOK AND DESKTOP ------------*/
+}
+
+@media screen and (max-width : 970px) {
+/* CSS FOR TABLETS ------------*/
+
+
+
+
+@media screen and (max-width : 768px) {
+
+/* CSS FOR SMALL TABLETS ------------*/
+}
+
+
+
+@media screen and (max-width : 640px) {
+	.sidebar{
+    position: relative;
+}
+}
+/* CSS FOR IPHONE ------------*/
+
+
+@media screen and (max-width : 480px) 
+/* CSS FOR MOBILES ------------*/
+
+.navbart{
+
+}
+
+.social{
+
+}
+
+
+@media screen and (max-width : 320px) {
+/* CSS FOR SMALL OLD MOBILES ------------*/
 }
