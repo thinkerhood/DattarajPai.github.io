@@ -207,6 +207,7 @@ background-image: url(http://1.bp.blogspot.com/-UaMXnN5fKLg/VUscmmNqX3I/AAAAAAAA
 .content{
 	width: 100%;
 	float:left;
+	margin:5px;
 }
 }
 /* CSS FOR IPHONE ------------*/
@@ -214,13 +215,22 @@ background-image: url(http://1.bp.blogspot.com/-UaMXnN5fKLg/VUscmmNqX3I/AAAAAAAA
 
 @media screen and (max-width : 480px) {
 /* CSS FOR MOBILES ------------*/
+.content{
 
+	margin:1px;
+}
 
 }
 
 
 @media screen and (max-width : 320px) {
 /* CSS FOR SMALL OLD MOBILES ------------*/
+.wrap{
+	padding:2px;
+}
 
+.nav ul{
+	padding: 2px;
+}
 
 }
