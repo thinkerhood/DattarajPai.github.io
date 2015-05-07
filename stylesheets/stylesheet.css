@@ -29,6 +29,7 @@ body{
 	font-size: 18px;
 	line-height: 28px;
 	width: 100%;
+	background-color: #f7f7f7;
 
 }
 
@@ -36,9 +37,20 @@ body a{
 		text-decoration: none;
 }
 
+
+h1{
+	font: 45px/ 35px bold "Georgia", serif;
+	margin-bottom: 20px;
+	padding: 10px;
+	color: black;
+
+}
+
 .wrap{
 	max-width: 1100px;
 		margin: auto;
+			background-color: white;
+			padding: 15px;
 }
 
 .social{
@@ -56,9 +68,8 @@ body a{
 
 
 
-.nav a{
-	padding: 5px;
-	color: black;
+.nav{
+	padding: 10px 0;
 }
 
 .nav li{
@@ -69,16 +80,46 @@ body a{
 
 }
 
+.nav ul{
+		opacity: 0.8;
+	background-image: url(../images/background.png);
+	margin: 10px;
+	position:relative;
+	padding: 15px;
+}
+
+.nav a{
+	padding: 10px;
+	color: white;
+	background-color: black;
+}
+
+.nav a:hover{
+	padding: 10px;
+	color: black;
+	background-color: white;
+}
+
 .sidebar{
 	float:left;
     position: fixed;
-	width: 350px;
+	width: 35%;
+	max-width: 350px;
+
+	border-top: 7px solid black;
+
+
+}
+
+.sidebar img{
 
 }
 
 .content{
 float: right;
-width: 65%;
+width: 55%;
+margin: 20px 30px 10px 10px;
+padding: 20px;
 }
 
 footer{
