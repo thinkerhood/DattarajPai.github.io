@@ -58,6 +58,14 @@ a:hover{
 	color: #000066;
 }
 
+p.small {
+    line-height: 15px;
+}
+
+p.big {
+    line-height: 30px;
+}
+
 
 .wrap{
 	max-width: 1100px;
