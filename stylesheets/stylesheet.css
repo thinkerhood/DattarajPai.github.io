@@ -58,13 +58,10 @@ a:hover{
 	color: #000066;
 }
 
-p.small {
-    line-height: 25px;
+p {
+    padding-bottom: 15px;
 }
 
-p.big {
-    line-height: 35px;
-}
 
 
 .wrap{
