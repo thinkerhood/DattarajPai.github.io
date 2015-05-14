@@ -132,6 +132,10 @@ p{
 
 }
 
+.nav a:hover{
+	 text-decoration:none;
+}
+
 .social{
 
 	margin: 15px;
