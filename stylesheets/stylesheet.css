@@ -7,7 +7,7 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
+ u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
@@ -26,7 +26,7 @@ time, mark, audio, video {
 body{
 
 	font-family: Georgia;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 28px;
 	width: 100%;
 	background-color: #f7f7f7;
@@ -34,7 +34,21 @@ body{
 }
 
 body a{
-		text-decoration: none;
+      text-decoration: none;
+    color: #003399;
+}
+
+
+body a:visited{
+  color: #333399;
+
+
+}
+
+
+body a:hover {
+      text-decoration: underline;
+    text-decoration-style: dotted;
 }
 
 
@@ -46,36 +60,85 @@ h1{
 
 }
 
-a{
-	color: #6666CC;
-}
+p{
+  margin-bottom: 15px;
 
-a visited{
-	color: #663399;
-}
 
-a:hover{
-	color: #000066;
-}
-
-p {
-        margin-bottom: 25px;
 }
 
 
+.heading h1{
+	text-align: center;
+	font-family: 'Satisfy', serif;
+}
 
 .wrap{
-	max-width: 1100px;
-	margin: auto;
-	background-color: white;
-	padding: 15px;
-	border-bottom: 5px solid black;
+	max-width: 600px;
+		margin: auto;
+			background-color: white;
+			border-bottom: 4px solid black;
+
+}
+
+.page {
+		padding: 25px;
+}
+
+.profile{
+	position: relative;
+
+}
+
+.photograph{
+	width: 400px; 
+	height:400px; 
+	background-image: url(../images/dattaraj.jpg) ;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: auto;
+
+}
+
+.photograph:hover{
+	opacity: 0.8 ;
+
+}
+
+.nav{
+	background-color: black;
+	color: white;
+	font: 17px/20px normal 'Lobster', cursive;
+		text-align: center;
+}
+
+.nav li{
+	display: inline;
+	margin: 10px;
+
+}
+
+.nav ul{
+		padding: 10px 20px;
+}
+
+.nav a{
+	color: white;
+	text-decoration: none;
+}
+
+.nav a:visited{
+  color: white;
+
+
 }
 
 .social{
 
 	margin: 15px;
-	padding: 5px;
+	padding: 25px;
+	position: relative;
+	margin: auto;
+	width: 60%;
 }
 
 .social li{
@@ -86,80 +149,12 @@ p {
 }
 
 
-
-.nav{
-	padding: 10px 0;
-}
-
-.nav li{
-
-	display: block;
-	margin: 10px;
-	padding: 5px;
-
-}
-
-.nav ul{
-	opacity: 0.8;
-	background-image: url(https://cloud.githubusercontent.com/assets/12274440/7514675/467cc4b0-f4dd-11e4-841c-313d1422d056.png);
-	margin: 10px;
-	position:relative;
-	padding: 15px;
-}
-
-.nav a{
-	padding: 10px;
-	color: white;
-	background-color: black;
-}
-
-.nav a:hover{
-	padding: 10px;
-	color: black;
-	background-color: white;
-}
-
-.sidebar{
-	float:left;
-        position: fixed;
-	width: 35%;
-	max-width: 350px;
-
-	border-top: 7px solid black;
-
-
-}
-
-.sidebar-port{
-	float:left;
-        position: fixed;
-	width: 35%;
-	max-width: 350px;
-
-}
-
-
-.sidebar img{
-
-}
-
-.content{
-	float: right;
-        width: 55%;
-        margin: 20px 30px 10px 10px;
-        padding: 20px;
-}
-
-footer{
-	clear:both;
-}
-
 .facebook{
 	width: 45px; 
 	height:45px; 
 	display: inline-block;
 	background-image: url(http://4.bp.blogspot.com/-bvOOYWu8tAE/VUnF1pu1XYI/AAAAAAAAB2A/00EmB3mkaNI/s1600/FB.png) ;
-        background-repeat: no-repeat;
+    background-repeat: no-repeat;
 }
 
 .twitter{
@@ -203,7 +198,109 @@ background-image: url(http://4.bp.blogspot.com/-IZ1ssM4cXbI/VUscnbHDgyI/AAAAAAAA
 
 .googleplus:hover{
 background-image: url(http://1.bp.blogspot.com/-UaMXnN5fKLg/VUscmmNqX3I/AAAAAAAAB3I/Z0uBU3zPudY/s1600/Googleplus.png); 
+}
 
+
+/* ==========================================================================
+   POST TILES
+   ========================================================================== */
+
+/*
+   Tiles content
+   ========================================================================== */
+
+   .article{
+   	position: relative;
+  float:left;
+  margin: 10px 20px;
+  padding: 5px;
+   }
+
+.article:hover{
+	background-color: #f7f7f7;
+}
+
+   .article img{
+   	float:left;
+
+   }
+
+     .article img:hover{
+   	  opacity: 0.9;
+   	
+   }
+
+
+   .article-text{
+   	margin: 1px 15px ;
+   	float:left;
+   	width: 70%;
+   	position: relative;
+
+   }
+
+   .article a{
+   	font-weight: bold;
+   }
+
+
+   .snippet{
+   	  	font: 14px/ 17px normal 'Georgia', serif;
+   }
+
+
+   footer{
+   	clear:both;
+   }
+
+   .contact-info{
+    text-align: center;
+    margin: 30px 0;
+    font-size: 17px;
+   }
+
+
+
+   /**
+
+   Underline
+
+
+   **/
+
+
+/* Underline From Center */
+.nav-one{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+.nav-one:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: white;
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.nav-one:hover:before, .nav-one:focus:before, .nav-one:active:before {
+  left: 0;
+  right: 0;
 }
 
 /* Mobile
@@ -215,7 +312,7 @@ background-image: url(http://1.bp.blogspot.com/-UaMXnN5fKLg/VUscmmNqX3I/AAAAAAAA
 
 @media screen and (max-width : 970px) {
 /* CSS FOR TABLETS ------------*/
-
+}
 
 
 
@@ -228,13 +325,11 @@ background-image: url(http://1.bp.blogspot.com/-UaMXnN5fKLg/VUscmmNqX3I/AAAAAAAA
 
 @media screen and (max-width : 640px) {
 	.sidebar{
-        position: relative;
-        width: 100%;
+
 }
 
 .content{
-	width: 100%;
-	margin:5px;
+
 }
 }
 /* CSS FOR IPHONE ------------*/
@@ -244,8 +339,7 @@ background-image: url(http://1.bp.blogspot.com/-UaMXnN5fKLg/VUscmmNqX3I/AAAAAAAA
 /* CSS FOR MOBILES ------------*/
 .content{
 
-	margin:2px;
-	padding: 2px;
+
 }
 
 }
@@ -254,11 +348,11 @@ background-image: url(http://1.bp.blogspot.com/-UaMXnN5fKLg/VUscmmNqX3I/AAAAAAAA
 @media screen and (max-width : 320px) {
 /* CSS FOR SMALL OLD MOBILES ------------*/
 .wrap{
-	padding:2px;
+
 }
 
 .nav ul{
-	padding: 2px;
+
 }
 
 }
