@@ -53,7 +53,7 @@ body a:hover {
 
 
 h1{
-	font: 45px/ 35px bold "Georgia", serif;
+	font: bold 45px/ 35px "Georgia", serif;
 	margin-bottom: 20px;
 	padding: 10px;
 	color: black;
@@ -69,7 +69,7 @@ p{
 
 .heading h1{
 	text-align: center;
-	font: 46px/49px normal 'Satisfy', serif;
+	font:  normal 46px/49px 'Satisfy', serif;
 	
 }
 
@@ -100,7 +100,7 @@ p{
 
 }
 
-.photograph:hover{
+.photograph:hover{f
 	opacity: 0.8 ;
 
 }
@@ -108,7 +108,7 @@ p{
 .nav{
 	background-color: black;
 	color: white;
-	font: 17px/20px normal 'Lobster', cursive;
+	font: normal 17px/20px  'Lobster', cursive;
 		text-align: center;
 }
 
@@ -250,7 +250,7 @@ background-image: url(http://1.bp.blogspot.com/-UaMXnN5fKLg/VUscmmNqX3I/AAAAAAAA
 
 
    .snippet{
-   	  	font: 14px/ 17px normal 'Georgia', serif;
+   	  	font: normal 14px/ 17px  'Georgia', serif;
    }
 
 
