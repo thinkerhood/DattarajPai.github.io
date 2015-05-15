@@ -89,7 +89,7 @@ p{
 	position: relative;
 
 }
-
+/**
 .photograph{
 	width: 400px; 
 	height:300px; 
@@ -97,10 +97,14 @@ p{
     background-repeat: no-repeat;
     position: relative;
     margin: auto;
-    max-width:100%;
-    height:auto;
-
 }
+**/
+
+.photograph{
+	    position: relative;
+    margin: auto;
+}
+
 
 .photograph:hover{f
 	opacity: 0.8 ;
