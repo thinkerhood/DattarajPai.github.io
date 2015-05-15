@@ -101,17 +101,18 @@ p{
 **/
 
 .photograph{
-    width: 100%; 
-    height:auto; 
+
     position: relative;
     margin-left: auto;
     margin-right: auto;
 }
 
-.photograph img{
+.img-responsive{
     position: relative;
     margin-left: auto;
     margin-right: auto;
+     width: 100%; 
+    height:auto; 
     
 }
 
