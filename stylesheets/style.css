@@ -107,6 +107,11 @@ p{
     margin: auto;
 }
 
+.photograph img{
+    position: relative;
+    margin: auto;
+}
+
 
 .photograph:hover{f
 	opacity: 0.8 ;
