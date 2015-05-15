@@ -101,7 +101,9 @@ p{
 **/
 
 .photograph{
-	    position: relative;
+    width: 70%; 
+	height:auto; 
+    position: relative;
     margin: auto;
 }
 
