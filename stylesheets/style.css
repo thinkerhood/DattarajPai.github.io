@@ -120,6 +120,27 @@ p{
 
 }
 
+
+.pf-list{
+  font:  normal 22px/29px 'Bree Serif', serif;
+    margin: 5px 20px 30px 20px;
+}
+
+.pf-list ul{
+   list-style-type: none;
+  margin: 10px;
+
+}
+
+
+.pf-list li{
+    margin: 5px 20px 30px 20px;
+}
+
+.pf-list a .pf-list, a:visited{
+    color:black;
+}
+
 .nav{
 	background-color: black;
 	color: white;
