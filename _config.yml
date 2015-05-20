@@ -11,3 +11,5 @@ markdown: kramdown
 
 gems:
   - jekyll-redirect-from
+
+redirects: yes
