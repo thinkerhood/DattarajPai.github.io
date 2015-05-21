@@ -144,7 +144,7 @@ p{
 .nav{
 	background-color: black;
 	color: white;
-	font: normal 17px/20px  'Lobster', cursive;
+	font: bold italic 14px/20px Georgia, sans-serif;
 		text-align: center;
 }
 
